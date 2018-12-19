@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RESTful" duration-ms="7063" started-at="2018-12-19T09:37:11Z" finished-at="2018-12-19T09:37:18Z">
+    <groups>
+    </groups>
+    <test name="REST API Testing" duration-ms="7063" started-at="2018-12-19T09:37:11Z" finished-at="2018-12-19T09:37:18Z">
+      <class name="test.TestMethods">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestMethods@6cd8737]" name="setUp" is-config="true" duration-ms="66" started-at="2018-12-19T09:37:11Z" finished-at="2018-12-19T09:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getPOSTstatus(java.lang.String)[pri:0, instance:test.TestMethods@6cd8737]" name="getPOSTstatus" duration-ms="4908" started-at="2018-12-19T09:37:11Z" finished-at="2018-12-19T09:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[?page=2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPOSTstatus -->
+        <test-method status="PASS" signature="getPOSTJSON(java.lang.String)[pri:0, instance:test.TestMethods@6cd8737]" name="getPOSTJSON" duration-ms="1059" started-at="2018-12-19T09:37:16Z" finished-at="2018-12-19T09:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[?page=2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPOSTJSON -->
+        <test-method status="PASS" signature="getPOSTHeaders(java.lang.String)[pri:0, instance:test.TestMethods@6cd8737]" name="getPOSTHeaders" duration-ms="988" started-at="2018-12-19T09:37:17Z" finished-at="2018-12-19T09:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[?page=2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPOSTHeaders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestMethods@6cd8737]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-19T09:37:18Z" finished-at="2018-12-19T09:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestMethods -->
+    </test> <!-- REST API Testing -->
+  </suite> <!-- RESTful -->
+</testng-results>

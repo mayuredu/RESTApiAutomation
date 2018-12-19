@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESTful" verbose="1">
+	<test name="REST API Testing">
+		<parameter name="uri" value="?page=2"/>
+		<classes>
+			<class name="test.TestMethods">
+				<methods>
+					<exclude name="getGETStatus"/>
+					<exclude name="getGETJSON"/>
+					<exclude name="getGETHeaders"/>
+					<include name="getPOSTstatus"/>
+					<include name="getPOSTJSON"/>
+					<include name="getPOSTHeaders"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
