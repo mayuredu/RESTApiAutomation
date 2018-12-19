@@ -6,9 +6,9 @@
 		<classes>
 			<class name="test.TestMethods">
 				<methods>
-					<exclude name="getGETStatus"/>
-					<exclude name="getGETJSON"/>
-					<exclude name="getGETHeaders"/>
+					<include name="getGETStatus"/>
+					<include name="getGETJSON"/>
+					<include name="getGETHeaders"/>
 					<include name="getPOSTstatus"/>
 					<include name="getPOSTJSON"/>
 					<include name="getPOSTHeaders"/>
